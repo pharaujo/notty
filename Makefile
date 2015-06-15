@@ -5,3 +5,6 @@ all: notty.c
 
 clean:
 	rm -f notty
+
+install:
+	cp notty /usr/local/bin/
